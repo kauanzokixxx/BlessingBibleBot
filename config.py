@@ -1,1 +1,5 @@
+import os
 
+TOKEN = os.getenv("TOKEN")
+
+CANAL_ID = 1533581479769145354
