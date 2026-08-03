@@ -1,5 +1,5 @@
 import os
 
-TOKEN = os.getenv("MTUzMzU4MTQ3OTc2OTE0NTM1NA.GqeKjU.r0dxG6csQMcp4Zazknw9aTq7Ui8zrQZa60m2YU")
+TOKEN = os.getenv("TOKEN")
 
 CANAL_ID = 1533511280797946038
