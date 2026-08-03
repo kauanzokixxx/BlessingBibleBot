@@ -5,6 +5,8 @@ import json
 import config
 
 intents = discord.Intents.default()
+intents.message_content = True
+
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 with open("versiculos.json", "r", encoding="utf-8") as arquivo:
